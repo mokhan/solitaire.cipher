@@ -1,7 +1,7 @@
-Feature: Decryption
-  In order to decrypt a message
-  I want to be able to decrypt a secret message
+Feature: Encryption
+  In order to encrypt a message
+  I want to be able to encrypt a secret message
 
-  Scenario: Decrypt a message
+  Scenario: Encrypt a message
     Given I have entered blah
     Then the result should be halb on the screen
